@@ -1,0 +1,51 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gatsby develop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "@trevorblades/eslint-config/react"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.12",
+    "@chakra-ui/gatsby-plugin": "^1.0.0",
+    "@chakra-ui/icons": "^1.0.0",
+    "@chakra-ui/react": "^1.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.4.2",
+    "elasticlunr": "^0.9.5",
+    "framer-motion": "^2.9.4",
+    "gatsby": "^2.32.3",
+    "gatsby-image": "^2.5.0",
+    "gatsby-plugin-apollo": "^3.0.2",
+    "gatsby-plugin-google-analytics": "^3.0.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-source-contentful": "^4.0.0",
+    "gatsby-transformer-remark": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "graphql": "^14.7.0",
+    "lodash.shuffle": "^4.2.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^3.11.0",
+    "react-player": "^2.8.2",
+    "react-vimeo": "^2.0.0",
+    "react-youtube": "^7.13.0"
+  },
+  "devDependencies": {
+    "@trevorblades/eslint-config": "^7.2.1",
+    "eslint": "^7.22.0"
+  }
+}
